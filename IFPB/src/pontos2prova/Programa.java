@@ -48,7 +48,7 @@ public class Programa {
                 Triangulo t=new Triangulo(lado1,lado2,lado3);
 
                 for(Triangulo t1:triangulo){
-                    System.out.println(t.calcularPerimetro(t1));
+                    System.out.println(t.calcularPerimetro());
                 }
                 triangulo.add(t);
                 triangulos++;
